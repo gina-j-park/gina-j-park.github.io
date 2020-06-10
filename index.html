@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Layout</title>
+        <link rel="stylesheet" href="index-styles.css">
+
+    </head>
+    <body>
+        <div id="home" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"> <img src="image/logo.jpg" alt="travel logo"></a></h1>
+                <nav> <!--second box-->
+                    <h1></h1>
+                    <a href="#">about</a>
+                    <a href="#">contact</a>
+                    <a href="#">schedule</a>
+                    <a href="#">snapshot</a>
+                </nav>
+            </header>
+
+            <div class="home-content wrapper">
+                <h2 class= "page-title">HONEYMOON</h2>
+                <p>If you want to keep your beautiful memories forever, record them.</p>
+                
+                <iframe 
+                width="1120" 
+                height="630" 
+                src="https://www.youtube.com/embed/mWrAt7Mel_Q" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                autoplay;
+                allowfullscreen></iframe>
+            </div>
+        </div>
+        <style> /* inline css stylesheet */
+        @import url("https://use.typekit.net/gxg5kpn.css");
+            header {
+                background-repeat : no-repeat;
+                background-size:cover;
+                position : -webkit-sticky; /* makes the box move wihin its parent - browser window */
+                top:10px; /* top of browser to the border of the box */
+                left:10px; /*left of thebrowser to the left border of the box*/
+                width:50%;
+                height:180px;
+                z-index:3; /* the layer the boc is in */
+                overflow : hidden;
+            }
+            h2 {
+                font-size: 80px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-left : 50%;
+            }
+            p {
+                text-align: left;
+            }
+            header img{
+                width :180px;
+                height : 160px;
+                opacity: 0.9;
+                position: absolute;
+                top:10px;
+                left:10px;
+            }
+
+            nav {
+                background-color:whitesmoke;
+                position: absolute;
+                top:30px;
+                left:1000px;
+                width:200px;
+                height:150px;
+            }
+            nav a{
+                color: skyblue;
+                font-size:1.3em;
+                font-weight: 800;
+            }
+            nav a:hover {
+                color:darkgrey;
+                font-weight:900;
+            }
+            #home {
+                width:500px;
+            }
+
+            
+            #main {
+                background-color:antiquewhite;
+                height:1800px;
+                width:1200px;
+                overflow:hidden;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: 600;
+                font-style:bold;
+            }
+               
+        </style>
+       
+
+        <nav> <!--second box-->
+            <h1></h1>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">schedule</a>
+            <a href="#">snapshot</a>
+        </nav>
+        
+        
+        <home> 
+            <img src="image/backimage.jpg" alt="image">
+            
+        </home>
+        
+
+        <aside>
+            <h3 class="sub-title"> EUROPe SNAPSHOT </h3>
+            <ul class="sub-menu">
+                <li><a href="#">Booiking Online</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Reviews</a></li>
+
+            </ul>
+            <h3 vlass="sub-title">Booking Information</h3>
+            <p>
+                Once you book you can put deposit within 24hours.
+                After you put deposit you're booking is successful and you will get an e-mail within in an hour.
+                And the email will ask you for available contact hour, then our manager will contact you for concepts.
+                Before 5days your shooting day, you will get an email and text message for renind.
+            </p>
+        </aside>
+        
+        <main>  
+          
+
+            <div class="rooms"> <!--Room 1-->
+               <div class="closets"> <!--closet 1-->
+    <img src="image/snapshot.jpg" alt="france"> 
+                </div> <!--Closet end-->
+                     <div class="closets"> <!--closet 2-->
+                       <img src="image/europ.jpg" alt= "snapshot">
+                       </div> <!--Closet end-->
+                    <div class="closets"> <!--closet 3-->
+                        <img src="image/cherry.jpg" alt="france">
+                                    </div> <!--Closet end-->
+                                         <div class="closets"> <!--closet 4-->
+                                           <img src="image/paris.jpg" alt= "snapshot">
+                                           </div> <!--Closet end-->
+                                           <div class="closets"> <!--closet 5-->
+                                            <img src="image/rain.jpg" alt="france">
+                                                        </div> <!--Closet end-->
+                                                             <div class="closets"> <!--closet 6-->
+                                                               <img src="image/walkway.jpg" alt= "snapshot">
+                                                               </div> <!--Closet end-->
+        
+        </main>
+        
+    <article>
+
+
+
+    </article>     
+       
+    </body>
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2020 EUROPE SNAPSHOT</small></p>
+        </div>
+    </footer>
+    </html>

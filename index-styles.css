@@ -1,0 +1,109 @@
+#main {
+    background-color:antiquewhite;
+    height:800px;
+    width:1000px;
+    overflow:hidden;
+    
+}
+
+.sub-title{
+    fpont-size:1.375rem;
+    padding:0.8px;
+    border-bottom: 2px #0bd solid;
+    font-weight:normal;
+}
+aside {
+    width:22%;
+    margin-left:70%;
+}
+.sub-menu {
+    margin-bottom :60px;
+    list-style:none;
+}
+.sub-menu li{
+    borfer-bottom : 1px #ddd solid;
+}
+.sub-menu a {
+    color #432;
+    padding:10px;
+    display:black;
+
+}
+.sub-menu a:hover {
+    color: #0bd;
+}
+aside p{
+    padding:12px 10px;
+}
+#home{
+   height:1200px;
+   width:1000px;
+}
+  ]
+   
+#big-box {
+    width : 1000px;
+}
+
+#article {
+    background-color: #FAC53E;
+    widows: 74%;
+    height:240px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 40px;
+    padding-top:50px;
+}
+
+#div {
+    background-color: #FC521C;
+    width:300px;
+    height:220px;
+    float:left;
+    margin-left:15px;
+    margin-right:15px;
+
+}
+
+.rooms {
+    background-color: peachpuff;
+    width: 80%px;
+    height: 1200px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top:15px;
+}
+
+.closets {
+    background-color: lightgoldenrodyellow;
+    width: 360px;
+    height: 420px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:10px;
+    border-image-width : 30%;
+    overflow: hidden;
+}
+
+main img {
+    width:350px;
+    height:400px;
+    margin-top:10px;
+    margin-left:6px;
+    margin-right:4px;
+
+}
+
+
+footer {
+    background : #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color : #fff;
+    font-size : 0.875rem;
+}
